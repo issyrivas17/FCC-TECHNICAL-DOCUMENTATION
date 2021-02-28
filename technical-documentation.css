@@ -1,0 +1,36 @@
+@media (max-width: 800px) {}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-style: solid;
+    border-right: black;
+    border-color: rgba(0, 22, 22, 0.4)
+}
+
+header {
+    font-family: Lucida Sans;
+    text-align: center;
+    font-weight: thin;
+    font-size: 1.6em;
+    background-color: #cbffdada;
+    color: black;
+    margin: 0.5em 0em;
+}
+
+.nav-link {
+    padding: 3px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 311px;
+    margin-bottom: 109px;
+    padding: 23px;
+}
