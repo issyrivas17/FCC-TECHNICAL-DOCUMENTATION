@@ -1,4 +1,19 @@
-@media (max-width: 800px) {}
+header {
+    font-family: Lucida Sans;
+    text-align: center;
+    font-weight: thin;
+    font-size: 1.6em;
+    background-color: #ffd2f4da;
+    color: black;
+    margin: 0.5em 0em;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 311px;
+    margin-bottom: 109px;
+    padding: 23px;
+}
 
 #navbar {
     position: fixed;
@@ -9,28 +24,26 @@
     height: 100%;
     border-style: solid;
     border-right: black;
-    border-color: rgba(0, 22, 22, 0.4)
+    border-color: rgba(0, 22, 22, 0.4);
+    border-right: 2px solid;
 }
 
-header {
-    font-family: Lucida Sans;
-    text-align: center;
-    font-weight: thin;
-    font-size: 1.6em;
-    background-color: #cbffdada;
-    color: black;
-    margin: 0.5em 0em;
-}
-
-.nav-link {
+.nav-link li {
     padding: 3px;
     text-decoration: none;
     cursor: pointer;
 }
 
-#main-doc {
-    position: absolute;
-    margin-left: 311px;
-    margin-bottom: 109px;
-    padding: 23px;
+#navbar li {
+    color: #000000;
+    border-top: 2px solid;
+    list-style: none;
+    position: relative;
+    width: 90%;
+}
+
+@media (max-width: 720px) {
+    body {
+        font-size: .6em;
+    }
 }
